@@ -86,6 +86,10 @@
 
 12. Mostrar el listado completo de artículos, incluyendo por cada artículo los datos del artículo y de su fabricante.
 
+`SELECT nombre_articulo AS Nombre_Articulo, precio_articulo, nombre_fabricante AS Nombre_Fabricante FROM Articulo JOIN Fabricante;`
+
+![Consulta 12](img/consulta_12.png  "Consulta 12")
+
 13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su fabricante.
 
 14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los fabricantes.
