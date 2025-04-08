@@ -103,3 +103,7 @@
 ![Consulta 14](img/consulta_14.png  "Consulta 14")
 
 15. Mostrar el precio promedio de los productos de cada fabricante, mostrando el nombre del fabricante.
+
+`SELECT nombre_fabricante, AVG(precio_articulo) AS Precio_Promedio FROM Articulo JOIN Fabricante GROUP BY nombre_fabricante;`
+
+![Consulta 15](img/consulta_15.png  "Consulta 15")
